@@ -1,0 +1,13 @@
+{
+    "version": "0.1.0",
+    "command": "gulp",
+    "isShellCommand": true,
+    "tasks": [
+        {
+            "taskName": "live_transpiler",
+            "isBuildCommand": true,
+            "showOutput": "always",
+            "isBackground": true
+        }
+    ]
+}

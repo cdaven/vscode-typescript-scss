@@ -1,0 +1,22 @@
+{
+  "name": "vscode-typescript-scss",
+  "version": "1.0.0",
+  "description": "Template for TypeScript and SCSS in Visual Studio Code",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "typescript": "^2.3.2",
+    "uglify": "^0.1.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-typescript": "^3.1.6",
+    "gulp-uglify": "^2.1.2",
+    "node-sass": "^4.5.3",
+    "typescript": "^2.3.2",
+    "uglify": "^0.1.5"
+  },
+  "author": "Christian Davén <christian@daven.se>",
+  "license": "Unlicense",
+  "repository": "https://github.com/cdaven/vscode-typescript-scss"
+}
