@@ -8,10 +8,8 @@ in the `dist` folder.
 
 ## Requirements
 
-- Visual Studio Code
-- TypeScript
-- NodeJS
-- npm
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [NodeJS and npm](http://blog.teamtreehouse.com/install-node-js-npm-windows)
 
 ## Quick install
 

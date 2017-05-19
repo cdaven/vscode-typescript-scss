@@ -17,9 +17,27 @@ gulp.task("sass", function() {
         .pipe(gulp.dest("dist"));
 });
 
+gulp.task("js", function() {
+    gulp.src("src/**/*.js")
+        .pipe(gulp.dest("dist"));
+});
+
+gulp.task("css", function() {
+    gulp.src("src/**/*.css")
+        .pipe(gulp.dest("dist"));
+});
+
+gulp.task("html", function() {
+    gulp.src("src/**/*.html")
+        .pipe(gulp.dest("dist"));
+});
+
 gulp.task("live_transpiler", function() {
     gulp.watch("src/**/*.scss", ["sass"]);
     gulp.watch("src/**/*.ts", ["ts"]);
+    gulp.watch("src/**/*.css", ["css"]);
+    gulp.watch("src/**/*.js", ["js"]);
+    gulp.watch("src/**/*.html", ["html"]);
 });
 
 gulp.task("default", ["ts", "sass"], function() {
