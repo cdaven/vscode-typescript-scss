@@ -40,12 +40,6 @@ gulp.task("live_transpiler", function() {
     gulp.watch("src/**/*.html", ["html"]);
 });
 
-gulp.task("default", ["ts", "sass"], function() {
-    gulp.src("dist/**/*.js")
-        .pipe(uglify({
-            output: {
-                comments: "license"
-            }
-        }))
-        .pipe(gulp.dest("dist"));
+gulp.task("default", ["ts", "sass", "css", "js", "html"], function() {
+    // TODO: ?
 });
