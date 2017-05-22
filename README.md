@@ -16,7 +16,7 @@ in the `dist` folder.
 1. Download the files in this repository
 2. Go to the folder
 3. Run `npm install`
-4. Run `npm install -g typescript gulp uglify`
+4. Run `npm install -g typescript gulp uglify node-sass clean-css`
 
 On Windows, you probably have to restart the computer to load the new PATH variables,
 to be able to run gulp and npm from within VS Code.
